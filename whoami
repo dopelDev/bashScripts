@@ -1,0 +1,9 @@
+#!/bin/bash
+# variales y guardar commands
+quien=$(whoami)
+lista=$(ls -a)
+week=$(cal -y)
+
+echo "soy $quien seguro"
+echo "la lista es $lista"
+echo "calendario año $week"
