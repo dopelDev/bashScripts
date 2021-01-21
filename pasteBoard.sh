@@ -1,3 +1,3 @@
 #!/usr/bin/bash
-copy=$(/home/dopel/scripts/pasteBoard.py)
+copy=$(/home/dopel/projects/pythonScript/pasteBoard.py)
 echo $copy
