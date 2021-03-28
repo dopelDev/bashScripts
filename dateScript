@@ -14,7 +14,7 @@
 #Mail : 322kuroneko2@gmail.com
 ################################################
 if [[ $1 = '-dir' ]]; then
-  date +%F-%a;
+  date +%a-%F;
 else
   num=$(date +%d)
   case $num in
